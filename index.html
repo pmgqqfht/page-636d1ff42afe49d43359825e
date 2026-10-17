@@ -1,0 +1,369 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>DataNet · 网络接入方案说明</title><meta name="description" content="DataNet 是一套按流量与设备数量划分的订阅方案。本页说明三档方案的价格、额度与设备上限，客户端配置路径，以及使用前需要了解的常见问题。"><meta name="keywords" content="DataNet, 网络接入, 订阅方案, 流量套餐, 设备连接, 客户端配置, 常见问题"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-2f8087a71d.rhlhrp.cn/"><meta property="og:type" content="website"><meta property="og:title" content="DataNet · 网络接入方案说明"><meta property="og:description" content="DataNet 是一套按流量与设备数量划分的订阅方案。本页说明三档方案的价格、额度与设备上限，客户端配置路径，以及使用前需要了解的常见问题。"><meta property="og:url" content="https://p-2f8087a71d.rhlhrp.cn/"><meta property="og:site_name" content="DataNet"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-2f8087a71d.rhlhrp.cn/", "name": "DataNet · 网络接入方案说明", "description": "DataNet 是一套按流量与设备数量划分的订阅方案。本页说明三档方案的价格、额度与设备上限，客户端配置路径，以及使用前需要了解的常见问题。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="636d1ff42afe49d43359825e:cd16d9dbc48de952d008bede09a9fd34ea3c551cd95711dcb9d53acb9b26251b:7cfff5888d1c4e8e144f"></head><body id="top"><style>
+  :root {--brown: #3b2a1f;--brown-deep: #2a1d15;--brown-soft: #6b4f3d;--mint: #8fd9c0;--mint-pale: #e6f6ef;--paper: #f7f4ef;--ink: #241a14;--line: #d9cfc3;--muted: #7a6a5c}
+  * {box-sizing: border-box}
+  html {-webkit-text-size-adjust: 100%}
+  body {margin: 0;background: var(--paper);color: var(--ink);font-family: "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;font-size: 16px;line-height: 1.75}
+  a {color: var(--brown)}
+  a:focus-visible {outline: 2px solid var(--mint);outline-offset: 3px}
+
+  .wrap {max-width: 1080px;margin: 0 auto;padding: 0 24px}
+
+  /* 顶部细横条 */
+  .topbar {background: var(--brown-deep);color: var(--paper);border-bottom: 2px solid var(--mint)}
+  .topbar .wrap {display: flex;align-items: center;justify-content: space-between;gap: 16px;min-height: 46px;padding-top: 6px;padding-bottom: 6px;flex-wrap: wrap}
+  .brandmark {font-size: 15px;letter-spacing: 0.18em;text-transform: uppercase;font-weight: 700}
+  .brandmark span {color: var(--mint)}
+  .topnav {display: flex;gap: 18px;flex-wrap: wrap;font-size: 13px;letter-spacing: 0.04em}
+  .topnav a {color: #e8dcd0;text-decoration: none;border-bottom: 1px solid transparent;padding-bottom: 2px}
+  .topnav a:hover {border-bottom-color: var(--mint);color: #fff}
+
+  /* 首屏：杂志式多栏网格配引言 */
+  .hero {background: var(--brown);color: #f4ede4;padding: 56px 0 64px}
+  .hero-grid {display: grid;grid-template-columns: 1.55fr 1fr;gap: 40px 48px;align-items: start}
+  .kicker {font-size: 12px;letter-spacing: 0.28em;text-transform: uppercase;color: var(--mint);margin: 0 0 18px}
+  h1 {font-size: clamp(2rem, 5.2vw, 3.4rem);line-height: 1.14;margin: 0 0 22px;font-weight: 700;letter-spacing: -0.01em}
+  h1 em {font-style: normal;color: var(--mint)}
+  .hero-lead {font-size: 1.05rem;color: #ddcfc2;max-width: 34em;margin: 0 0 26px}
+  .pullquote {border-left: 3px solid var(--mint);padding: 4px 0 4px 20px;margin: 0;font-size: 1.1rem;line-height: 1.65;color: #f4ede4}
+  .pullquote cite {display: block;margin-top: 12px;font-style: normal;font-size: 12px;letter-spacing: 0.16em;color: #b9a795;text-transform: uppercase}
+  .hero-side {border-top: 1px solid rgba(143, 217, 192, 0.45);padding-top: 18px}
+  .hero-side h2 {font-size: 12px;letter-spacing: 0.22em;text-transform: uppercase;color: var(--mint);margin: 0 0 14px;font-weight: 600}
+  .statlist {list-style: none;margin: 0;padding: 0}
+  .statlist li {display: flex;justify-content: space-between;gap: 16px;padding: 11px 0;border-bottom: 1px solid rgba(244, 237, 228, 0.14);font-size: 14px;color: #ddcfc2}
+  .statlist li strong {color: #fff;font-weight: 600;text-align: right}
+  .hero-foot {grid-column: 1 / -1;display: grid;grid-template-columns: repeat(3, 1fr);gap: 28px;margin-top: 14px;padding-top: 26px;border-top: 1px solid rgba(244, 237, 228, 0.18)}
+  .hero-foot h3 {font-size: 13px;letter-spacing: 0.12em;margin: 0 0 8px;color: var(--mint);text-transform: uppercase}
+  .hero-foot p {margin: 0;font-size: 13.5px;color: #cdbfb1;line-height: 1.7}
+
+  /* 通用区块 */
+  section {padding: 68px 0}
+  .section-head {display: grid;grid-template-columns: 200px 1fr;gap: 24px 40px;align-items: baseline;margin-bottom: 40px;border-bottom: 1px solid var(--line);padding-bottom: 18px}
+  .section-head .num {font-size: 12px;letter-spacing: 0.24em;color: var(--muted);text-transform: uppercase}
+  .section-head h2 {font-size: clamp(1.4rem, 2.6vw, 1.9rem);margin: 0;line-height: 1.3;letter-spacing: -0.01em}
+  .section-head p {margin: 10px 0 0;color: var(--brown-soft);font-size: 14.5px;max-width: 44em}
+
+  /* 使用说明 */
+  .steps {display: grid;grid-template-columns: repeat(2, 1fr);gap: 0 56px}
+  .step {padding: 24px 0;border-top: 1px solid var(--line)}
+  .step:first-child, .step:nth-child(2) {border-top: none;padding-top: 0}
+  .step .label {font-size: 12px;letter-spacing: 0.2em;color: var(--brown-soft);text-transform: uppercase}
+  .step h3 {font-size: 1.05rem;margin: 8px 0 8px}
+  .step p {margin: 0;font-size: 14.5px;color: #4d3d31}
+
+  /* 套餐：单列大卡依次堆叠，无边框靠留白分隔 */
+  .plans {background: var(--mint-pale)}
+  .plan-list {display: block}
+  .plan {display: grid;grid-template-columns: 0.85fr 2fr 1.1fr;gap: 24px 40px;padding: 36px 0;border-top: 1px solid #cfe4da;align-items: start}
+  .plan:first-child {border-top: none;padding-top: 0}
+  .plan-name {font-size: 1.35rem;margin: 0 0 6px;font-weight: 700;color: var(--brown-deep)}
+  .plan-tag {display: inline-block;font-size: 11px;letter-spacing: 0.16em;text-transform: uppercase;color: #1f5a49;background: var(--mint);padding: 2px 8px;margin-bottom: 10px}
+  .plan-note {font-size: 13px;color: var(--muted);margin: 0;line-height: 1.6}
+  .plan-features {list-style: none;margin: 0;padding: 0;font-size: 14.5px;color: #3d3028}
+  .plan-features li {padding: 5px 0 5px 20px;position: relative}
+  .plan-features li::before {content: "";position: absolute;left: 0;top: 14px;width: 8px;height: 1px;background: var(--brown-soft)}
+  .plan-price {text-align: right}
+  .plan-price .amount {display: block;font-size: 1.6rem;font-weight: 700;color: var(--brown-deep);line-height: 1.2}
+  .plan-price .annual {display: block;font-size: 13px;color: var(--brown-soft);margin-top: 6px}
+
+  /* 客户端 */
+  .clients-grid {display: grid;grid-template-columns: repeat(3, 1fr);gap: 40px}
+  .client h3 {font-size: 1rem;margin: 0 0 8px;letter-spacing: 0.02em}
+  .client p {margin: 0;font-size: 14px;color: #4d3d31}
+  .client .meta {display: block;margin-top: 10px;font-size: 12px;letter-spacing: 0.1em;color: var(--muted);text-transform: uppercase}
+  .client-note {margin-top: 36px;padding-top: 20px;border-top: 1px solid var(--line);font-size: 14px;color: var(--brown-soft);max-width: 60em}
+
+  /* FAQ details */
+  .faq {background: #efe9e0}
+  .faq details {border-top: 1px solid var(--line);padding: 18px 0}
+  .faq details:first-of-type {border-top: none}
+  .faq summary {cursor: pointer;font-size: 1rem;font-weight: 600;list-style: none;display: flex;gap: 14px;align-items: baseline;color: var(--brown-deep)}
+  .faq summary::-webkit-details-marker {display: none}
+  .faq summary::before {content: "＋";color: var(--brown-soft);font-size: 0.95rem;flex: 0 0 auto}
+  .faq details[open] summary::before {content: "－"}
+  .faq details p {margin: 12px 0 0 28px;font-size: 14.5px;color: #4d3d31;max-width: 46em}
+  .faq-group-head {font-size: 12px;letter-spacing: 0.2em;text-transform: uppercase;color: var(--brown-soft);margin: 0 0 6px}
+  .faq-group + .faq-group {margin-top: 40px}
+
+  footer {background: var(--brown-deep);color: #c9bbb0;padding: 44px 0 52px;font-size: 13.5px}
+  footer .wrap {display: flex;justify-content: space-between;gap: 24px;flex-wrap: wrap}
+  footer strong {color: var(--mint);letter-spacing: 0.16em}
+  footer p {margin: 8px 0 0;max-width: 34em;line-height: 1.7}
+
+  @media (max-width: 860px) {
+    .hero-grid {grid-template-columns: 1fr;gap: 32px}
+    .hero-foot {grid-template-columns: 1fr;gap: 20px}
+    .section-head {grid-template-columns: 1fr;gap: 8px}
+    .steps {grid-template-columns: 1fr}
+    .step:nth-child(2) {border-top: 1px solid var(--line);padding-top: 24px}
+    .plan {grid-template-columns: 1fr;gap: 16px}
+    .plan-price {text-align: left}
+    .clients-grid {grid-template-columns: 1fr;gap: 28px}
+  }
+  @media (max-width: 520px) {
+    .wrap {padding: 0 18px}
+    .hero {padding: 40px 0 48px}
+    section {padding: 52px 0}
+    .topnav {gap: 12px;font-size: 12px}
+  }
+</style><header class="topbar">
+  <div class="wrap">
+    <div class="brandmark">Data<span>Net</span></div>
+    <nav class="topnav" aria-label="页面目录">
+      <a href="#manual">使用说明</a>
+      <a href="#plans">订阅方案</a>
+      <a href="#clients">客户端</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <p class="kicker">接入方案说明书 / 第 1 版</p>
+          <h1 id="hero-title">DataNet 提供的是<em>一份可核对的接入方案</em>，而不是一堆形容词</h1>
+          <p class="hero-lead">流量额度、设备上限、线路类型，这些是选择服务时真正要看的变量。本页按这三项把订阅拆成三档，并把每档包含什么写在明面上，方便你自己做判断。</p>
+          <blockquote class="pullquote">
+            先明确你一个月用多少流量、同时在线几台设备，再去选档位。顺序反过来，通常会多付钱。
+            DataNet 方案说明
+          </blockquote>
+        </div>
+        <aside class="hero-side">
+          <h2 id="hero-side-title">三档方案一览</h2>
+          <ul class="statlist">
+            <li><span>基础版</span><strong>¥15 / 月</strong></li>
+            <li><span>旗舰版</span><strong>¥35 / 月</strong></li>
+            <li><span>团队版</span><strong>¥85 / 月</strong></li>
+            <li><span>年付折算</span><strong>约十个月价</strong></li>
+            <li><span>设备上限</span><strong>3 / 5 / 20 台</strong></li>
+          </ul>
+        </aside>
+        <div class="hero-foot">
+          <div>
+            <h3>按流量分档</h3>
+            <p>每月 100GB、300GB、1000GB 三档额度，用完不自动升级，需要手动调整。</p>
+          </div>
+          <div>
+            <h3>按设备分档</h3>
+            <p>同时在线设备数分别为 3 台、5 台、20 台，超出部分需要断开其中一台。</p>
+          </div>
+          <div>
+            <h3>按线路分档</h3>
+            <p>基础版为普通线路节点池；旗舰版与团队版包含更高带宽的节点与专线优化。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="manual">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="num">01 / 使用说明</div>
+        <div>
+          <h2 id="manual-title">从下单到稳定使用，一共四步</h2>
+          <p>下面四步是接入的完整路径。每一步都写了需要确认的事项，建议按顺序执行，出问题时更容易定位在哪一环。</p>
+        </div>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <div class="label">Step 01</div>
+          <h3>确认额度和设备数</h3>
+          <p>先估算月度流量与同时在线的设备数，再对照下方的订阅方案选择档位。若两项中有一项长期超出，应直接升档，而不是中途反复调整。</p>
+        </article>
+        <article class="step">
+          <div class="label">Step 02</div>
+          <h3>选择计费周期</h3>
+          <p>月付与年付的差别只在结算方式：年付按十个月的价格收取十二个月。若你不确定会使用多久，先按月付开始，减少沉没成本。</p>
+        </article>
+        <article class="step">
+          <div class="label">Step 03</div>
+          <h3>在客户端填入配置</h3>
+          <p>订阅生效后，在你常用的系统上安装对应客户端，填入账户信息并选择线路。不同系统的客户端说明见下方「客户端」区块。</p>
+        </article>
+        <article class="step">
+          <div class="label">Step 04</div>
+          <h3>观察一周再决定是否升档</h3>
+          <p>第一周留意流量消耗速度与设备是否够用。若经常触及额度上限或需要断开设备，说明档位偏低，此时再升级比一开始就选高配更划算。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="plans" class="plans">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="num">02 / 订阅方案</div>
+        <div>
+          <h2 id="plans-title">三档订阅，逐条列出包含什么</h2>
+          <p>价格以月付计，括号内为年付总价。所有档位共用同一套账户体系，升档后额度与设备上限在下个计费周期生效。</p>
+        </div>
+      </div>
+
+      <div class="plan-list">
+
+        <article class="plan">
+          <div>
+            <h3 class="plan-name">基础版</h3>
+            <p class="plan-note">适合单人或两人日常使用，以浏览、通讯和轻度影音为主。</p>
+          </div>
+          <ul class="plan-features">
+            <li>每月 100GB 流量额度</li>
+            <li>支持 3 台设备同时在线</li>
+            <li>解锁基础流媒体</li>
+            <li>普通线路节点池</li>
+          </ul>
+          <div class="plan-price">
+            <span class="amount">¥15 / 月</span>
+            <span class="annual">按年付 ¥150 / 年</span>
+          </div>
+        </article>
+
+        <article class="plan">
+          <div>
+            <span class="plan-tag">推荐</span>
+            <h3 class="plan-name">旗舰版</h3>
+            <p class="plan-note">适合对线路质量有要求的个人用户，兼顾流媒体与游戏场景。</p>
+          </div>
+          <ul class="plan-features">
+            <li>每月 300GB 流量额度</li>
+            <li>支持 5 台设备同时在线</li>
+            <li>全节点原生流媒体解锁</li>
+            <li>IPLC 专线游戏加速优化</li>
+            <li>7×24 优先工单支持</li>
+          </ul>
+          <div class="plan-price">
+            <span class="amount">¥35 / 月</span>
+            <span class="annual">按年付 ¥350 / 年</span>
+          </div>
+        </article>
+
+        <article class="plan">
+          <div>
+            <h3 class="plan-name">团队版</h3>
+            <p class="plan-note">适合多人共用或需要固定路由策略的小型团队。</p>
+          </div>
+          <ul class="plan-features">
+            <li>每月 1000GB 流量额度</li>
+            <li>支持 20 台设备同时在线</li>
+            <li>VIP 专属高带宽节点</li>
+            <li>支持企业定制路由</li>
+            <li>专属客户经理服务</li>
+          </ul>
+          <div class="plan-price">
+            <span class="amount">¥85 / 月</span>
+            <span class="annual">按年付 ¥850 / 年</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="clients">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="num">03 / 客户端</div>
+        <div>
+          <h2 id="clients-title">按系统选择客户端，配置方式一致</h2>
+          <p>客户端不在本页提供下载地址，请在账户后台的客户端页面获取对应安装包，避免从第三方来源安装。三端使用同一份账户信息。</p>
+        </div>
+      </div>
+      <div class="clients-grid">
+        <article class="client">
+          <h3>桌面端 · Windows / macOS</h3>
+          <p>安装后在账户页复制配置信息粘贴到客户端，选择线路即可连接。桌面端适合长时间在线，建议开启开机自启。</p>
+          <span class="meta">配置入口：账户后台 · 客户端页</span>
+        </article>
+        <article class="client">
+          <h3>移动端 · iOS / Android</h3>
+          <p>移动端与桌面端共用同一账户，占用的设备名额也相同。切换网络时如出现断连，重新选择线路即可恢复。</p>
+          <span class="meta">配置入口：账户后台 · 客户端页</span>
+        </article>
+        <article class="client">
+          <h3>路由器 · 全屋接入</h3>
+          <p>团队版支持企业定制路由，可把配置下发到路由器，让局域网设备统一走同一出口。此方式会占用较多设备名额，开通前请核算。</p>
+          <span class="meta">配置入口：账户后台 · 定制路由</span>
+        </article>
+      </div>
+      <p class="client-note">说明：客户端的具体版本号、支持的系统版本下限与更新日志，以账户后台客户端页面显示的信息为准。本页不代为提供安装包，也不对第三方渠道分发的文件做任何保证。</p>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="num">04 / 常见问题</div>
+        <div>
+          <h2 id="faq-title">订阅前通常会问到的几件事</h2>
+          <p>以下问题按主题分两组，点击标题展开答案。若你的问题不在其中，可通过账户后台的工单入口提问。</p>
+        </div>
+      </div>
+
+      <div class="faq-group">
+        <p class="faq-group-head">关于方案与计费</p>
+
+        <details>
+          <summary>月付中用到一半升级档位，差价怎么算？</summary>
+          <p>升级后新的额度与设备上限从下一个计费周期开始生效，当前周期按原档位执行到结束。这样的处理方式意味着升级不会即时提升本月额度，如果你当月已经接近上限，更实际的做法是先按原档位用完本月，再在下个周期切换。</p>
+        </details>
+
+        <details>
+          <summary>年付比月付便宜多少，适合谁？</summary>
+          <p>年付按十个月的价格收取十二个月，即基础版 ¥150、旗舰版 ¥350、团队版 ¥850。它适合已经确认会长期使用、且月均流量稳定的人。如果你只是短期需要，或者还在比较不同方案，先按月付使用一个月再决定，风险更小。</p>
+        </details>
+
+        <details>
+          <summary>流量用完之后会怎样？</summary>
+          <p>额度用尽后不会自动升级到更高档位，也不会自动扣费，需要你手动调整订阅。在此之前，建议先查看客户端的流量统计，确认消耗主要来自哪类设备或应用，再判断是额度不够，还是使用方式可以调整。</p>
+        </details>
+
+        <details>
+          <summary>三档方案的设备名额可以共享吗？</summary>
+          <p>同一账户下的所有设备共用该档位的在线名额。基础版同时在线 3 台、旗舰版 5 台、团队版 20 台，超出时需要断开其中一台，不会自动挤掉其他设备。手机与电脑各占一个名额，路由器接入同样计入。</p>
+        </details>
+      </div>
+
+      <div class="faq-group">
+        <p class="faq-group-head">关于使用与配置</p>
+
+        <details>
+          <summary>换了新设备，需要重新购买吗？</summary>
+          <p>不需要。在新的设备上安装客户端，使用同一账户信息登录即可，占用的仍是原有的设备名额。旧设备如果不再使用，建议在账户后台解绑，以免长期占用名额。</p>
+        </details>
+
+        <details>
+          <summary>普通线路节点池和 IPLC 专线有什么区别？</summary>
+          <p>两处差别体现在档位上：基础版使用普通线路节点池，旗舰版与团队版包含更高带宽的专属节点，旗舰版另外标注了面向游戏场景的 IPLC 专线优化。实际选择时以你的主要用途为准，若只是日常浏览与通讯，基础版已能满足。</p>
+        </details>
+
+        <details>
+          <summary>连接不稳定时，先检查什么？</summary>
+          <p>建议按以下顺序排查：先在客户端切换另一条线路，再确认本地网络是否正常，然后检查同账户下的在线设备数是否已达到上限。多数连接问题出在线路选择或名额占满，而非账户本身。若以上均正常仍无法使用，请提交工单并附上客户端显示的提示信息。</p>
+        </details>
+
+        <details>
+          <summary>团队版的企业定制路由怎么开通？</summary>
+          <p>在账户后台的设备页提交定制路由需求，由客户经理与你就出口策略和使用场景确认后再配置。由于该方式会占用较多设备名额，建议在开通前先核算计划接入的终端数量，避免上线后名额不足。</p>
+        </details>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <strong>DataNet</strong>
+      <p>本页为订阅方案与使用方式的说明文档。价格、额度与设备上限按页面上列出的数值执行，调整时会更新本页内容。</p>
+    </div>
+    <div>
+      <p>方案与配置的细节以账户后台显示为准。如有疑问，请通过账户后台的工单入口联系。</p>
+    </div>
+  </div>
+</footer><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
